@@ -95,9 +95,62 @@
         justify-content: center;
         align-items: center;
         
+     } 
+
+
+     main {
+        max-width: 1440px;
+        margin: 0 auto;
+     }
+
+    
+     /* section team container  */
+
+
+
+     .team-container {
+        display: flex;
+        align-items: center;
      }
 
 
+     .team-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+     }
+
+
+     .team-content {
+        padding-left: 70px;
+        padding-right: 70px;
+     }
+
+     .team-title {
+        padding-bottom: 24px;
+        font-size: 2.8rem;
+     }
+
+     .team-description {
+        padding-bottom: 32px;
+        color: var(--dark-03, #727272);
+
+         font-weight: 400;
+        line-height: 26px; /* 162.5% */
+
+
+     }
+
+
+     .team-title .quick-list {
+        color: #727272;
+        font-weight: 500;
+     }
+
+     .team-title .features {
+        color:#FF900E ;
+        font-weight: 700;
+     }
 
      /* responsive style   */
 
